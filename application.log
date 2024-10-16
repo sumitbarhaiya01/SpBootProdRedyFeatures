@@ -1,0 +1,49 @@
+2024-10-17T02:07:40.912+05:30  INFO 2800 --- [SpBootRestClient] [main] c.n.S.SpBootRestClientApplication        : Starting SpBootRestClientApplication using Java 22.0.2 with PID 2800 (C:\Users\HP PC\Downloads\SpBootRestClient\target\classes started by HP PC in C:\Users\HP PC\Downloads\SpBootRestClient)
+2024-10-17T02:07:40.915+05:30  INFO 2800 --- [SpBootRestClient] [main] c.n.S.SpBootRestClientApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-10-17T02:07:43.007+05:30  INFO 2800 --- [SpBootRestClient] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17T02:07:43.110+05:30  INFO 2800 --- [SpBootRestClient] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interface.
+2024-10-17T02:07:44.565+05:30  INFO 2800 --- [SpBootRestClient] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9000 (http)
+2024-10-17T02:07:44.609+05:30  INFO 2800 --- [SpBootRestClient] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-17T02:07:44.610+05:30  INFO 2800 --- [SpBootRestClient] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17T02:07:44.795+05:30  INFO 2800 --- [SpBootRestClient] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-17T02:07:44.798+05:30  INFO 2800 --- [SpBootRestClient] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3785 ms
+2024-10-17T02:07:45.892+05:30  INFO 2800 --- [SpBootRestClient] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17T02:07:45.995+05:30  INFO 2800 --- [SpBootRestClient] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-17T02:07:46.055+05:30  INFO 2800 --- [SpBootRestClient] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-17T02:07:46.849+05:30  INFO 2800 --- [SpBootRestClient] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-17T02:07:46.905+05:30  INFO 2800 --- [SpBootRestClient] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-17T02:07:47.389+05:30  INFO 2800 --- [SpBootRestClient] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bc21e34
+2024-10-17T02:07:47.392+05:30  INFO 2800 --- [SpBootRestClient] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-17T02:07:47.493+05:30  WARN 2800 --- [SpBootRestClient] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.43 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-17T02:07:49.109+05:30  INFO 2800 --- [SpBootRestClient] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-17T02:07:49.276+05:30  INFO 2800 --- [SpBootRestClient] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17T02:07:50.000+05:30  WARN 2800 --- [SpBootRestClient] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17T02:07:53.135+05:30  INFO 2800 --- [SpBootRestClient] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-10-17T02:07:53.348+05:30  INFO 2800 --- [SpBootRestClient] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9000 (http) with context path '/'
+2024-10-17T02:07:53.386+05:30  INFO 2800 --- [SpBootRestClient] [main] c.n.S.SpBootRestClientApplication        : Started SpBootRestClientApplication in 13.569 seconds (process running for 14.46)
+2024-10-17T02:21:27.766+05:30  INFO 6356 --- [SpBootRestClient] [main] c.n.S.SpBootRestClientApplication        : Starting SpBootRestClientApplication using Java 22.0.2 with PID 6356 (C:\Users\HP PC\Downloads\SpBootRestClient\target\classes started by HP PC in C:\Users\HP PC\Downloads\SpBootRestClient)
+2024-10-17T02:21:27.770+05:30  INFO 6356 --- [SpBootRestClient] [main] c.n.S.SpBootRestClientApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-10-17T02:21:30.640+05:30  INFO 6356 --- [SpBootRestClient] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17T02:21:30.747+05:30  INFO 6356 --- [SpBootRestClient] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2024-10-17T02:21:32.242+05:30  INFO 6356 --- [SpBootRestClient] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9000 (http)
+2024-10-17T02:21:32.268+05:30  INFO 6356 --- [SpBootRestClient] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-17T02:21:32.269+05:30  INFO 6356 --- [SpBootRestClient] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-17T02:21:32.374+05:30  INFO 6356 --- [SpBootRestClient] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-17T02:21:32.375+05:30  INFO 6356 --- [SpBootRestClient] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4497 ms
+2024-10-17T02:21:33.070+05:30  INFO 6356 --- [SpBootRestClient] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17T02:21:33.168+05:30  INFO 6356 --- [SpBootRestClient] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-17T02:21:33.231+05:30  INFO 6356 --- [SpBootRestClient] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-17T02:21:33.798+05:30  INFO 6356 --- [SpBootRestClient] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-17T02:21:33.849+05:30  INFO 6356 --- [SpBootRestClient] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-17T02:21:34.254+05:30  INFO 6356 --- [SpBootRestClient] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@377e90b0
+2024-10-17T02:21:34.258+05:30  INFO 6356 --- [SpBootRestClient] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-17T02:21:34.349+05:30  WARN 6356 --- [SpBootRestClient] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.43 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-17T02:21:35.882+05:30  INFO 6356 --- [SpBootRestClient] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-17T02:21:35.976+05:30  INFO 6356 --- [SpBootRestClient] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17T02:21:36.599+05:30  WARN 6356 --- [SpBootRestClient] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17T02:21:38.827+05:30  INFO 6356 --- [SpBootRestClient] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-10-17T02:21:39.018+05:30  INFO 6356 --- [SpBootRestClient] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9000 (http) with context path '/'
+2024-10-17T02:21:39.113+05:30  INFO 6356 --- [SpBootRestClient] [main] c.n.S.SpBootRestClientApplication        : Started SpBootRestClientApplication in 12.517 seconds (process running for 13.447)
+2024-10-17T02:22:38.934+05:30  INFO 6356 --- [SpBootRestClient] [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-17T02:22:38.935+05:30  INFO 6356 --- [SpBootRestClient] [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-17T02:22:38.941+05:30  INFO 6356 --- [SpBootRestClient] [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
